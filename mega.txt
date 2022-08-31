@@ -1,0 +1,5 @@
+let aleatorio = (min, max) => {
+  return parseInt(Math.random() * (max - min + 1) + min);
+};
+
+console.log(aleatorio(1, 60));
